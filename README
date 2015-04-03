@@ -17,13 +17,13 @@ On the other hand the information about what medecines a person uses or is poten
 # Technological specification:
 
 ## (1) client framework
-Angluar.js for frontend, just becaouse I thinkg it would be a good thing to learn about.
+Angluar.js for frontend, just becaouse I think would like to learn more about it.
 
 ## (2) Server framework
 I will most likely use flask as a micro-backend.
 
 ## (3) Data Storage 
-The data about where stuff where placed and what searches have been done previously should be saved in a good way. Either I use Json objects for every user with all info and in that case a NoSQL with focus on documents like mongoDB should be a good idea. 
+The data about where stuff where placed and what searches have been done previously should be saved in a good way. I will most likely use MySQL.
 
 ## (4) Authentication
 If there is a login I will have to add a anonymous login option, people wont want to have facebook or G+ connected to a meds account. But one of the two might be the easiest to do. Would love to test SQRL (Sequire Quick Reliable Login), a new quite unknown new solution for login.
@@ -33,7 +33,7 @@ If I use flask then I will look at the options to do this, dont know what is eas
 I want it to work with mouse and touch on screens bigger than 7-8inches. No phone version. 
 
 ## (6) testing framework
-I thinkg I want to use jenkins as a CI tool, selenium which is mentioned on the course web-page has a plugin for this. Will take a look at selenium. I dont know to what degree I will be using testing frameworks atm since I will probably have to redo many things and reiterate my ideas a ton. So I dont want to do too many tests at the begining. Once my core sturcture of the project is done I will take a greater look at this. From that point forward I would like to work according to TDD and hence do a lot of tests. But again, at the start I wont know what my requirements will be really so we will see what I end up with.
+I think I want to use jenkins as a CI tool, selenium which is mentioned on the course web-page has a plugin for this. Will take a look at selenium. I dont know to what degree I will be using testing frameworks atm since I will probably have to redo many things and reiterate my ideas a ton. So I dont want to do too many tests at the begining. Once my core sturcture of the project is done I will take a greater look at this. From that point forward I would like to work according to TDD and hence do a lot of tests. But again, at the start I wont know what my requirements will be really so we will see what I end up with.
 
 I want to be able to move elements around in the page, so jQueryUI might be what I will use to be able to do this.
 
